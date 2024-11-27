@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #69d0ff;
+    color: #2d0c0c;
+}
+
+header {
+    background-image:url("estudar.jpeg");
+    color: #3ef5ff;
+    padding: 2em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul:hover{
+    list-style:circle;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav a {
+    color: #347bfe;
+    text-decoration: none;
+    background-color: #09ffff;
+    border-radius: 20px;
+    padding: 8px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+main {
+    padding: 2em;
+    background-color: #ffe17e;
+    margin: 2em auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(255, 34, 34, 0.1);
+}
+
+section {
+    padding: 2em;
+    background-color: #ffe17e;
+    margin: 2em 0;
+}
+
+.info-item {
+    margin-bottom: 1em;
+    color: #2f325e;
+    width: 30%;
+    display: inline-block;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 2em;
+    background-color: #ffe17e;
+    padding: 1em;
+    border-left: 4px solid #333;
+}
+
+footer {
+    background-color: #270000;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
